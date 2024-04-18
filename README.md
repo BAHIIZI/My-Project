@@ -35,10 +35,16 @@ This project outlines the implementation of on-premises Active Directory within 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/2bde0349-ad2b-4f18-a70d-8621e3c4db24)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/39fe3e5b-dabf-4ef7-a652-afacfa4a1075)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/e3549006-0b0e-4f40-aef1-f2ad893e8520)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Creating Windows server named "DC-1" and Windows 10 named "Client-1" in Azure. Change the IP address of DC-1 from dynamic to static so that it does not change. While creating "Client-1" make sure the Virtual Network of both machines is the same. 
 </p>
 <br />
 
