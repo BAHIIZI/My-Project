@@ -60,7 +60,7 @@ Install active directory domain services. Open Server manager and add roles and 
 ![image](https://github.com/BAHIIZI/My-Project/assets/164538571/cc44ef99-d6da-4dd4-95b1-cf24741e40d8)
   
 
-Create an Admin "mike_admin" and loginto DC-1 as an Admin.
+Create an Admin "mike_admin" and loginto DC-1 as an Admin. Go to tools and select Active Directory Users and Computers, create an Organisational Unit called "_ADMIN", open _ADMIN and add a new user and then add the user to the Domain Admins. Once all is done close DC-1 and login as an Admin.  
 <p>
   
 ![image](https://github.com/BAHIIZI/My-Project/assets/164538571/a7b47ce1-96c8-4366-bdf6-162faf5f3468)
