@@ -35,19 +35,17 @@ This project outlines the implementation of on-premises Active Directory within 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
+Creating Windows server named "DC-1" and Windows 10 named "Client-1" in Azure. Change the IP address of DC-1 from dynamic to static so that it does not change. While creating "Client-1" make sure the Virtual Network of both machines is the same. 
   
 ![image](https://github.com/BAHIIZI/My-Project/assets/164538571/2bde0349-ad2b-4f18-a70d-8621e3c4db24)
 
 ![image](https://github.com/BAHIIZI/My-Project/assets/164538571/39fe3e5b-dabf-4ef7-a652-afacfa4a1075)
 
 ![image](https://github.com/BAHIIZI/My-Project/assets/164538571/e3549006-0b0e-4f40-aef1-f2ad893e8520)
-
-</p>
-<p>
-Creating Windows server named "DC-1" and Windows 10 named "Client-1" in Azure. Change the IP address of DC-1 from dynamic to static so that it does not change. While creating "Client-1" make sure the Virtual Network of both machines is the same. 
 </p>
 <br />
 
+Install active directory domain services. Open Server manager and add roles and features. check Active Directory Domain Services and features will be added. At the top right corner click promote this server to a domain controller, add a new forest and then install after all prerequisite checks have passed successfully. 
 <p>
   
 ![image](https://github.com/BAHIIZI/My-Project/assets/164538571/0a67410a-e2b0-4dde-b233-88ee7cbed0b7)
@@ -62,16 +60,28 @@ Creating Windows server named "DC-1" and Windows 10 named "Client-1" in Azure. C
 
 ![image](https://github.com/BAHIIZI/My-Project/assets/164538571/cc44ef99-d6da-4dd4-95b1-cf24741e40d8)
   
-<p>
-Install active directory domain services. Open Server manager and add roles and features. check Active Directory Domain Services and features will be added. At the top right corner click promote this server to a domain controller, add a new forest and then install after all prerequisite checks have passed successfully. 
-</p>
-<br />
 
+Create an Admin "mike_admin" and loginto DC-1 as an Admin.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/a7b47ce1-96c8-4366-bdf6-162faf5f3468)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/bd3db9b2-1467-4e77-8c41-496fac516dff)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/2e3ad680-4303-4159-a4ef-6f49d7db9022)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/2ca1bf2a-f470-454d-94da-e9acac9f0de5)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/14e37240-4264-4161-ae33-fd39786d229c)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/98bd8da8-a77f-40fc-b7de-0765f154f6e7)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/9fd4a7c4-47e0-4198-9be4-2006944e652e)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/861f111c-abdd-4aac-a7a7-4179a9721f8b)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
