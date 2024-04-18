@@ -49,10 +49,21 @@ Creating Windows server named "DC-1" and Windows 10 named "Client-1" in Azure. C
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+  
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/0a67410a-e2b0-4dde-b233-88ee7cbed0b7)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/2e2e8707-8cf9-4eaf-a5d0-fa63dd33e412)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/125f8d4c-99ae-4e39-824b-906428e32cd0)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/af1042f6-8b77-4468-a5af-86b675ebace3)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/e2756082-5e72-4dba-8a37-3cb262cd7e1f)
+
+![image](https://github.com/BAHIIZI/My-Project/assets/164538571/cc44ef99-d6da-4dd4-95b1-cf24741e40d8)
+  
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install active directory domain services. Open Server manager and add roles and features. check Active Directory Domain Services and features will be added. At the top right corner click promote this server to a domain controller, add a new forest and then install after all prerequisite checks have passed successfully. 
 </p>
 <br />
 
