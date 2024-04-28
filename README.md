@@ -10,13 +10,13 @@ This project outlines the implementation of on-premises Active Directory within 
 
 <h2>Video Demonstration</h2>
 
-- ### [How to Deploy on-premises Active Directory within Azure Compute][
+- ### [How to Deploy on-premises Active Directory within Azure Computer][
 ](https://drive.google.com/file/d/14BVYK5MIZwo5T-mQINSW7SfbO_uqqOPP/view?usp=share_link)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop
 - Active Directory Domain Services
 
 <h2>Operating Systems Used </h2>
